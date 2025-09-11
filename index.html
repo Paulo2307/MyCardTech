@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyCardTech</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -12,16 +13,29 @@
   <div id="Logo">
       <h1>MyCardTech</h1>
       <img src="img/nfc-icon.png" alt="">
+
     <nav id="menu">
           <a href="#como-funciona">SOBRE</a>
           <a href="#planos">PLANOS</a>
           <a href="#contato">CONTATO</a>
     </nav>
-    </div>
+
+  </div>
+    
+<div class="NavBar">
+  <div id="MyLinks">
+    <a id="Login-btn" href="#Login">LOGIN</a></li>
+    <a href="#como-funciona">SOBRE</a>
+    <a href="#planos">PLANOS</a>
+    <a href="#contato">CONTATO</a>   
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars" id="menu-btn" style="font-size: 20px;"></i>
+ </a>
+</div>   
+
     <nav id="Login-Cadastro">
-        <a id="Login" href="#Login">ENTRAR</a>
-        <h2>ou</h2>
-        <a id="cadastro" href="#cadastro">CADASTRE-SE</a>
+        <a id="Login" href="#Login">LOGIN</a>
     </nav>
 
 </header>
@@ -100,5 +114,6 @@
   <p>&copy; 2025 Identificação NFC - Todos os direitos reservados</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
